@@ -6,6 +6,7 @@ I'm planning to use MVVP pattern, Kotlin coroutines, Flows, Firebase for storage
 
 ## TODO list to keep track:
 
+- [ ] Add benchmarking
 - [ ] Authentication screen
 - [ ] Business logic for Authentication screen (using Firebase Auth)
 - [ ] Build a responsive Exercise Card
