@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "401480083703",
+    "project_id": "gym-tracker-abc98",
+    "storage_bucket": "gym-tracker-abc98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401480083703:android:a3bda4fdf547fc407a0bf2",
+        "android_client_info": {
+          "package_name": "com.mxtgames.gymtrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401480083703-j642rr9mm9ui2cla5qoglppdv56i0221.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzCY5TDBwMhH0S_DirmUdoICgmzonT6m0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401480083703-j642rr9mm9ui2cla5qoglppdv56i0221.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
