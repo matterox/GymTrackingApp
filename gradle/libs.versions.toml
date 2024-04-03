@@ -1,21 +1,22 @@
 [versions]
 agp = "8.2.2"
 kotlin = "1.9.0"
-hilt = "2.48"
+hilt = "2.50"
 core-ktx = "1.12.0"
 junit = "4.13.2"
 androidx-test-ext-junit = "1.1.5"
 espresso-core = "3.5.1"
 lifecycle-runtime-ktx = "2.7.0"
 activity-compose = "1.8.2"
-compose-bom = "2024.01.00"
-compose-navigation = "2.7.6"
-google-services = "4.4.0"
-firebase-bom = "32.7.1"
+compose-bom = "2024.03.00"
+compose-navigation = "2.7.7"
+google-services = "4.4.1"
+firebase-bom = "32.8.0"
 androidx-fragment = "1.6.2"
-hilt-navigation = "1.1.0"
-uiautomator = "2.2.0"
-benchmark-macro-junit4 = "1.2.0-beta01"
+hilt-navigation = "1.2.0"
+uiautomator = "2.3.0"
+benchmark-macro-junit4 = "1.2.3"
+androidx-data-store = "1.0.0"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -38,9 +39,11 @@ hilt-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", vers
 compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "compose-navigation" }
 firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom"}
 firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
 compose-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle-runtime-ktx"}
 androidx-uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version.ref = "uiautomator" }
 androidx-benchmark-macro-junit4 = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version.ref = "benchmark-macro-junit4" }
+datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidx-data-store" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

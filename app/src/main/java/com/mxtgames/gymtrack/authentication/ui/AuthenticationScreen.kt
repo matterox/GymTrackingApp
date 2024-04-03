@@ -18,6 +18,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -86,7 +88,8 @@ internal fun AuthScreen(
                     password = it
                 },
                 enabled = state != AuthScreenState.Loading,
-                isError = state is AuthScreenState.Error
+                isError = state is AuthScreenState.Error,
+                visualTransformation = PasswordVisualTransformation()
             )
             if (state is AuthScreenState.Error) {
                 Text(text = state.message)
